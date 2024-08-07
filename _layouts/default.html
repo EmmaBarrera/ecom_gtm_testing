@@ -40,6 +40,35 @@
   <footer>
 
   </footer>
+<!-- DATA LAYER  -->
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'view_item_list',
+  ecommerce: {
+    items: [{
+      item_name: 'Introducción a Linux',
+      item_id: 'A0001',
+      price: '30.00',
+      item_brand: 'Artika Hacking',
+      item_category: 'Courses',
+      item_list_name: 'Featured items',
+      item_list_id: 'FI1',
+      index: 1,
+      quantity: '1'
+    },{
+      item_name: 'Introducción al Hacking',
+      item_id: 'A0002',
+      price: '50.00',
+      item_brand: 'Artika Hacking',
+      item_category: 'Courses',
+      item_list_name: 'Featured items',
+      item_list_id: 'FI1',
+      index: 1,
+      quantity: '1'
+    }]
+  }
+});
+  
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/cart-localstorage@1.1.4/dist/cart-localstorage.min.js" type="text/javascript"></script>
